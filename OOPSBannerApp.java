@@ -12,3 +12,5 @@ public class OOPSBannerApp {
         System.out.println("OOPS");
     }
 }
+
+// UC1 Completed
