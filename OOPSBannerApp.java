@@ -1,16 +1,30 @@
-/**
- * OOPSBannerApp
- * UC1: Print OOPS to Console
- * This program prints "OOPS" to the console.
- *
- * @author Ayush
- * @version 1.0
- */
 public class OOPSBannerApp {
 
+    static void line1() {
+        System.out.println(" *****   *****   *****   ***** ");
+    }
+
+    static void line2() {
+        System.out.println(" *   *   *   *   *       *     ");
+    }
+
+    static void line3() {
+        System.out.println(" *   *   *****   *****   ***** ");
+    }
+
+    static void line4() {
+        System.out.println(" *   *   *           *       * ");
+    }
+
+    static void line5() {
+        System.out.println(" *****   *       *****   ***** ");
+    }
+
     public static void main(String[] args) {
-        System.out.println("OOPS");
+        line1();
+        line2();
+        line3();
+        line4();
+        line5();
     }
 }
-
-// UC1 Completed
